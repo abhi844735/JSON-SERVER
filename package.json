@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "json-server --watch db.json"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/abhi844735/JSON-SERVER.git"
@@ -18,6 +20,11 @@
   },
   "homepage": "https://github.com/abhi844735/JSON-SERVER#readme",
   "dependencies": {
+    "cors": "^2.8.5",
+    "json-serve": "^0.1.0",
     "json-server": "^0.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }
